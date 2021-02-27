@@ -21,40 +21,40 @@
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#has_criterion -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#has_criterion -->
 
-    <owl:ObjectProperty rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#has_criterion">
-        <owl:inverseOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_criterion_of"/>
-        <rdfs:domain rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Process_Phase"/>
-        <rdfs:range rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion"/>
+    <owl:ObjectProperty rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#has_criterion">
+        <owl:inverseOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_criterion_of"/>
+        <rdfs:domain rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Process_Phase"/>
+        <rdfs:range rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#has_requirement -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#has_requirement -->
 
-    <owl:ObjectProperty rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#has_requirement">
-        <owl:inverseOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_requirement_of"/>
-        <rdfs:domain rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion"/>
-        <rdfs:range rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+    <owl:ObjectProperty rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#has_requirement">
+        <owl:inverseOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_requirement_of"/>
+        <rdfs:domain rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion"/>
+        <rdfs:range rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_criterion_of -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_criterion_of -->
 
-    <owl:ObjectProperty rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_criterion_of">
-        <rdfs:domain rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion"/>
-        <rdfs:range rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Process_Phase"/>
+    <owl:ObjectProperty rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_criterion_of">
+        <rdfs:domain rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion"/>
+        <rdfs:range rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Process_Phase"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_requirement_of -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_requirement_of -->
 
-    <owl:ObjectProperty rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_requirement_of">
-        <rdfs:domain rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
-        <rdfs:range rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion"/>
+    <owl:ObjectProperty rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_requirement_of">
+        <rdfs:domain rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
+        <rdfs:range rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion"/>
     </owl:ObjectProperty>
     
 
@@ -70,261 +70,261 @@
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Accuracy -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Accuracy -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Accuracy">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Accuracy">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+                    <rdf:Description rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_requirement_of"/>
-                        <owl:someValuesFrom rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Errors_Identification"/>
+                        <owl:onProperty rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_requirement_of"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Errors_Identification"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisition -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisition -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisition">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisitive_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisition">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisitive_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisitive_Phase -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisitive_Phase -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisitive_Phase">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Process_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisitive_Phase">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Process_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Analysis -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Analysis -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Analysis">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigative_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Analysis">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigative_Phase"/>
         <rdfs:comment xml:lang="en">The aim of the analysis process is to gain insight into what happend, where, when, how, and why.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Anomaly_Detection -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Anomaly_Detection -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Anomaly_Detection">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Detection"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Anomaly_Detection">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Detection"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Attack_Path_Reconstruction -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Attack_Path_Reconstruction -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Attack_Path_Reconstruction">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reconstruction"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Attack_Path_Reconstruction">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reconstruction"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Authenticity -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Authenticity -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Authenticity">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Authenticity">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Authorization -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Authorization -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Authorization">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Authorization">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+                    <rdf:Description rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_requirement_of"/>
-                        <owl:someValuesFrom rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Search_Warrant_Obtaining"/>
+                        <owl:onProperty rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_requirement_of"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Search_Warrant_Obtaining"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Case_Domain_Modeling -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Case_Domain_Modeling -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Case_Domain_Modeling">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Planning"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Case_Domain_Modeling">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Planning"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Cause_Determination -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Cause_Determination -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Cause_Determination">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#First_Response"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Cause_Determination">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#First_Response"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Chain_Of_Custody -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Chain_Of_Custody -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Chain_Of_Custody">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Chain_Of_Custody">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Closure -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Closure -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Closure">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigative_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Closure">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigative_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Collection -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Collection -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Collection">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisitive_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Collection">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisitive_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Communication_Reconstruction -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Communication_Reconstruction -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Communication_Reconstruction">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reconstruction"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Communication_Reconstruction">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reconstruction"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Completeness -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Completeness -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Completeness">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Completeness">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Conceptual_Modelling -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Conceptual_Modelling -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Conceptual_Modelling">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Scientific_Modelling"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Conceptual_Modelling">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Scientific_Modelling"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Cryptoanalysis -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Cryptoanalysis -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Cryptoanalysis">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forcing_Access"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Cryptoanalysis">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forcing_Access"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Carving -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Carving -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Carving">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Unallocated_Space_Recovering"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Carving">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Unallocated_Space_Recovering"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Integrity_Preservation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Integrity_Preservation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Integrity_Preservation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Preservation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Integrity_Preservation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Preservation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Organization -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Organization -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Organization">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Examination"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Organization">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Examination"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Recovery -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Recovery -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Recovery">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Examination"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Recovery">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Examination"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Reduction -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Reduction -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Reduction">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Examination"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Reduction">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Examination"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Translation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Translation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Data_Translation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Examination"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Data_Translation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Examination"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Decription -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Decription -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Decription">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forcing_Access"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Decription">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forcing_Access"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Detection -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Detection -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Detection">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Initialisation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Detection">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Initialisation"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Digital_Evidence -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Digital_Evidence -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Digital_Evidence"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Digital_Evidence"/>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Errors_Identification -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Errors_Identification -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Errors_Identification">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Errors_Identification">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion"/>
+                    <rdf:Description rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_criterion_of"/>
+                        <owl:onProperty rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_criterion_of"/>
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisition"/>
-                                    <rdf:Description rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Analysis"/>
+                                    <rdf:Description rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisition"/>
+                                    <rdf:Description rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Analysis"/>
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
@@ -332,710 +332,710 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion"/>
         <rdfs:comment xml:lang="en">All errors have to be identified and explained so as to remove any doubt over the reliability of the evidence.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Evidence_Destroying -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Evidence_Destroying -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Evidence_Destroying">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Closure"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Evidence_Destroying">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Closure"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Evidence_Returning -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Evidence_Returning -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Evidence_Returning">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Closure"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Evidence_Returning">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Closure"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Evidence_Summary -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Evidence_Summary -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Evidence_Summary">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reporting"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Evidence_Summary">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reporting"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Examination -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Examination -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Examination">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigative_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Examination">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigative_Phase"/>
         <rdfs:comment xml:lang="en">An examination results in all relevant data being organized and presented in a manner that facilitates detailed analysis.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Exhibits -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Exhibits -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Exhibits">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reporting"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Exhibits">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reporting"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Expert_Findings -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Expert_Findings -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Expert_Findings">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reporting"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Expert_Findings">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reporting"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Factual -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Factual -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Factual">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Interpretation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Factual">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Interpretation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#File_Analysis -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#File_Analysis -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#File_Analysis">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Analysis"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#File_Analysis">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Analysis"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#File_Carving -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#File_Carving -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#File_Carving">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Unallocated_Space_Recovering"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#File_Carving">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Unallocated_Space_Recovering"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#File_Metadata_Examination -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#File_Metadata_Examination -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#File_Metadata_Examination">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#File_Analysis"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#File_Metadata_Examination">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#File_Analysis"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#First_Response -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#First_Response -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#First_Response">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Initialisation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#First_Response">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Initialisation"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forcing_Access -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forcing_Access -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forcing_Access">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisition"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forcing_Access">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisition"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion">
         <rdfs:comment xml:lang="en">Ensure that the end product of digital forensic process does not lose its evidentiary weight and its admissibility as evidence.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Further_Exploitation_Prevention -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Further_Exploitation_Prevention -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Further_Exploitation_Prevention">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#First_Response"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Further_Exploitation_Prevention">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#First_Response"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Hardware_Errors_Identification -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Hardware_Errors_Identification -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Hardware_Errors_Identification">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Errors_Identification"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Hardware_Errors_Identification">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Errors_Identification"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Hardware_Preparation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Hardware_Preparation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Hardware_Preparation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Preparation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Hardware_Preparation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Preparation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Heuristics -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Heuristics -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Heuristics">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Interpretation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Heuristics">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Interpretation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Hex_Dump -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Hex_Dump -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Hex_Dump">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Acquisition"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Hex_Dump">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Acquisition"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Identification -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Identification -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Identification">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisitive_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Identification">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisitive_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Impact_Assessing -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Impact_Assessing -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Impact_Assessing">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#First_Response"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Impact_Assessing">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#First_Response"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Initialisation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Initialisation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Initialisation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Process_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Initialisation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Process_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Integrity -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Integrity -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Integrity">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Integrity">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+                    <rdf:Description rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_requirement_of"/>
-                        <owl:someValuesFrom rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Meaning"/>
+                        <owl:onProperty rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_requirement_of"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Meaning"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Interaction_with_Device -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Interaction_with_Device -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Interaction_with_Device">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Manual_Acquisition"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Interaction_with_Device">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Manual_Acquisition"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Interception -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Interception -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Interception">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Collection"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Interception">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Collection"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Interpretation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Interpretation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Interpretation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigative_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Interpretation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigative_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Intrusion_Detection -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Intrusion_Detection -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Intrusion_Detection">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Detection"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Intrusion_Detection">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Detection"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigation_Artefact -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigation_Artefact -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigation_Artefact"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigation_Artefact"/>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigation_Experience -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigation_Experience -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigation_Experience">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigation_Experience">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion"/>
         <rdfs:comment xml:lang="en">The digital forensic analysis has to be undertaken by an individual with sufficient and relevant experience.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigative_Phase -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigative_Phase -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigative_Phase">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Process_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigative_Phase">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Process_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Iterating_to_Previous_Process -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Iterating_to_Previous_Process -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Iterating_to_Previous_Process">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Closure"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Iterating_to_Previous_Process">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Closure"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Logical_Digital_Evidence -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Logical_Digital_Evidence -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Logical_Digital_Evidence">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Digital_Evidence"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Logical_Digital_Evidence">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Digital_Evidence"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Logical_Preservation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Logical_Preservation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Logical_Preservation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Storage_and_Preservation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Logical_Preservation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Storage_and_Preservation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Lost_Arifacts_Recovering -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Lost_Arifacts_Recovering -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Lost_Arifacts_Recovering">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#First_Response"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Lost_Arifacts_Recovering">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#First_Response"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Manual_Acquisition -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Manual_Acquisition -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Manual_Acquisition">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisition"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Manual_Acquisition">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisition"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Mathematics_Modelling -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Mathematics_Modelling -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Mathematics_Modelling">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Scientific_Modelling"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Mathematics_Modelling">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Scientific_Modelling"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Meaning -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Meaning -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Meaning">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Meaning">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion"/>
+                    <rdf:Description rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_criterion_of"/>
-                        <owl:someValuesFrom rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Storage_and_Preservation"/>
+                        <owl:onProperty rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_criterion_of"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Storage_and_Preservation"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion"/>
         <rdfs:comment xml:lang="en">The meaning and the interpretation of the electronic evidence should not be affected by the digital forensic process.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Monitoring -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Monitoring -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Monitoring">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Analysis"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Monitoring">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Analysis"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Monitoring_Authorisation_Obtaining -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Monitoring_Authorisation_Obtaining -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Monitoring_Authorisation_Obtaining">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Preparation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Monitoring_Authorisation_Obtaining">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Preparation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Objectivity -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Objectivity -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Objectivity">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Objectivity">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Acquisition -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Acquisition -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Acquisition">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisition"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Acquisition">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisition"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Condition_Preservation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Condition_Preservation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Condition_Preservation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Preservation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Condition_Preservation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Preservation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Digital_Evidence -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Digital_Evidence -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Digital_Evidence">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Digital_Evidence"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Digital_Evidence">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Digital_Evidence"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Preservation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Preservation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Preservation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Storage_and_Preservation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Preservation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Storage_and_Preservation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Planning -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Planning -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Planning">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Initialisation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Planning">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Initialisation"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Predictive_Modelling -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Predictive_Modelling -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Predictive_Modelling">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Scientific_Modelling"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Predictive_Modelling">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Scientific_Modelling"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Preparation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Preparation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Preparation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Initialisation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Preparation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Initialisation"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Presentation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Presentation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Presentation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigative_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Presentation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigative_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Process_Phase -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Process_Phase -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Process_Phase">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Process_Phase">
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Program_Analysis -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Program_Analysis -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Program_Analysis">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Analysis"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Program_Analysis">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Analysis"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Raw_Binary_Data_not_Altered -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Raw_Binary_Data_not_Altered -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Raw_Binary_Data_not_Altered">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Meaning"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Raw_Binary_Data_not_Altered">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Meaning"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reconstruction -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reconstruction -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reconstruction">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Analysis"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reconstruction">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Analysis"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Relevant_Information_Distribution -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Relevant_Information_Distribution -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Relevant_Information_Distribution">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Closure"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Relevant_Information_Distribution">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Closure"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reliability -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reliability -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reliability">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reliability">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+                    <rdf:Description rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#is_requirement_of"/>
-                        <owl:someValuesFrom rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Errors_Identification"/>
+                        <owl:onProperty rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#is_requirement_of"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Errors_Identification"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Remote_Backup_Retrieving -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Remote_Backup_Retrieving -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Remote_Backup_Retrieving">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Acquisition"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Remote_Backup_Retrieving">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Acquisition"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Repeatability -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Repeatability -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Repeatability">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Repeatability">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Replication -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Replication -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Replication">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Logical_Preservation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Replication">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Logical_Preservation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reporting -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reporting -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Reporting">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Investigative_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Reporting">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Investigative_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Representation_Modified_but_Value_Unchanged -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Representation_Modified_but_Value_Unchanged -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Representation_Modified_but_Value_Unchanged">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Meaning"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Representation_Modified_but_Value_Unchanged">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Meaning"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Scientific_Modelling -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Scientific_Modelling -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Scientific_Modelling">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Interpretation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Scientific_Modelling">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Interpretation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Search_Goals_Defining -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Search_Goals_Defining -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Search_Goals_Defining">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Planning"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Search_Goals_Defining">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Planning"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Search_Methods_Specifying -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Search_Methods_Specifying -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Search_Methods_Specifying">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Planning"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Search_Methods_Specifying">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Planning"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Search_Warrant_Obtaining -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Search_Warrant_Obtaining -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Search_Warrant_Obtaining">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Preparation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Search_Warrant_Obtaining">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Preparation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Searching -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Searching -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Searching">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Examination"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Searching">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Examination"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Searching_for_String -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Searching_for_String -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Searching_for_String">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Text_File_Analysis"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Searching_for_String">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Text_File_Analysis"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Software_Errors_Identification -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Software_Errors_Identification -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Software_Errors_Identification">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Errors_Identification"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Software_Errors_Identification">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Errors_Identification"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Software_Preparation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Software_Preparation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Software_Preparation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Preparation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Software_Preparation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Preparation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Statistical_Modelling -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Statistical_Modelling -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Statistical_Modelling">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Scientific_Modelling"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Statistical_Modelling">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Scientific_Modelling"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Storage_and_Preservation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Storage_and_Preservation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Storage_and_Preservation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisitive_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Storage_and_Preservation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisitive_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Support_Preparation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Support_Preparation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Support_Preparation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Preparation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Support_Preparation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Preparation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#System_Analysis -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#System_Analysis -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#System_Analysis">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Analysis"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#System_Analysis">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Analysis"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Technique_Preparation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Technique_Preparation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Technique_Preparation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Preparation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Technique_Preparation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Preparation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Text_File_Analysis -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Text_File_Analysis -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Text_File_Analysis">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#File_Analysis"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Text_File_Analysis">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#File_Analysis"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Tool_Preparation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Tool_Preparation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Tool_Preparation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Preparation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Tool_Preparation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Preparation"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Tool_Reliability -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Tool_Reliability -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Tool_Reliability">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Tool_Reliability">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Transparency -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Transparency -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Transparency">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Forensic_Soundness_Criterion"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Transparency">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Forensic_Soundness_Criterion"/>
         <rdfs:comment xml:lang="en">Digital forensic process has to be capable of being independently examined and verified in its entirety.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Transportation -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Transportation -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Transportation">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Acquisitive_Phase"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Transportation">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Acquisitive_Phase"/>
         <rdfs:isDefinedBy xml:lang="en">Ellison, D., Ikuesan, R. A., &amp; Venter, H. S. (2019, November)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Trap_Setup -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Trap_Setup -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Trap_Setup">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Manual_Acquisition"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Trap_Setup">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Manual_Acquisition"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Unallocated_Space_Recovering -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Unallocated_Space_Recovering -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Unallocated_Space_Recovering">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Acquisition"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Unallocated_Space_Recovering">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Acquisition"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Veracity -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Veracity -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Veracity">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Admissibility_Requirement"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Veracity">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Admissibility_Requirement"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Volatile_Memory_Acquisition -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Volatile_Memory_Acquisition -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Volatile_Memory_Acquisition">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Physical_Acquisition"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Volatile_Memory_Acquisition">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Physical_Acquisition"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Volatile_Memory_Image -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Volatile_Memory_Image -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Volatile_Memory_Image">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Collection"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Volatile_Memory_Image">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Collection"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Write_Blocker_Blocking -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Write_Blocker_Blocking -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Write_Blocker_Blocking">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/forensics.owl#Logical_Preservation"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Write_Blocker_Blocking">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/forensics.owl#Logical_Preservation"/>
     </owl:Class>
 </rdf:RDF>
 
