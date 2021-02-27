@@ -6,7 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl"/>
+    <owl:Ontology rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl"/>
     
 
 
@@ -21,454 +21,454 @@
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Application_Layer -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Application_Layer -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Application_Layer">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Application_Layer">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#TCP/IP"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Asymmetric -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Asymmetric -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Asymmetric">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Cryptography"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Asymmetric">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Cryptography"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Bridge -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Bridge -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Bridge">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Bridge">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Device"/>
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Bush -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Bush -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Bush">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#LAN"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Bush">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#LAN"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Circuit_Switching -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Circuit_Switching -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Circuit_Switching">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Functioning"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Circuit_Switching">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Functioning"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Client_Server -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Client_Server -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Client_Server">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Architecture"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Client_Server">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Architecture"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Communication_Media -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Communication_Media -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Communication_Media">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Communication_Media">
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Architecture -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Architecture -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Architecture">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Architecture">
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Device -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Device">
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Functioning -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Functioning -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Functioning">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Functioning">
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Model -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Model -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Model">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Model">
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Performance -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Performance">
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Protocol -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Protocol">
         <rdfs:isDefinedBy xml:lang="en"></rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scale -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Scale -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scale">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Scale">
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scope -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Scope -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scope">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Scope">
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Security -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Security -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Security">
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Security">
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Cryptography -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Cryptography -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Cryptography">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Security"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Cryptography">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Security"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Data_Link_Layer -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Data_Link_Layer -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Data_Link_Layer">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Data_Link_Layer">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#TCP/IP"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Datagrams -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Datagrams -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Datagrams">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Switching"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Datagrams">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Packet_Switching"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Delay -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Delay -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Delay">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Delay">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Performance"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#E-mail -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#E-mail -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#E-mail">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Service"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#E-mail">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Service"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Ethernet -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Ethernet -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Ethernet">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Ethernet">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Protocol"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Extranet -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Extranet -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Extranet">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scope"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Extranet">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Scope"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#HTTP -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#HTTP -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#HTTP">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#HTTP">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Protocol"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Hub -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Hub -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Hub">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Hub">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Device"/>
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#IDS -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#IDS -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#IDS">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Measure"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#IDS">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Measure"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#IP -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#IP -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#IP">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#IP">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Protocol"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Internet -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Internet -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Internet">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scope"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Internet">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Scope"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Intranet -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Intranet -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Intranet">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scope"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Intranet">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Scope"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Jitter -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Jitter -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Jitter">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Jitter">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Performance"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#LAN -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#LAN -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#LAN">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scale"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#LAN">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Scale"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#MAC -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#MAC -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#MAC">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#MAC">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Protocol"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#MAN -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#MAN -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#MAN">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scale"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#MAN">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Scale"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Measure -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Measure -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Measure">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Security"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Measure">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Security"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#NIDS -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#NIDS -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#NIDS">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Measure"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#NIDS">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Measure"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Network_Layer -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Network_Layer -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Network_Layer">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Network_Layer">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#TCP/IP"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#OSI -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#OSI -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#OSI">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Model"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#OSI">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Model"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Loss -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Packet_Loss -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Loss">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Packet_Loss">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Performance"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Switching -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Packet_Switching -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Switching">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Functioning"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Packet_Switching">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Functioning"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Peer_to_Peer -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Peer_to_Peer -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Peer_to_Peer">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Architecture"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Peer_to_Peer">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Architecture"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Physical_Layer -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Physical_Layer -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Physical_Layer">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Physical_Layer">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#TCP/IP"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Proxy -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Proxy -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Proxy">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Proxy">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Device"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Ring -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Ring -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Ring">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#LAN"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Ring">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#LAN"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Router -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Router -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Router">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Router">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Device"/>
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Service -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Service -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Service">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Internet"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Service">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Internet"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Star -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Star -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Star">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#LAN"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Star">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#LAN"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Switch -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Switch -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Switch">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Switch">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Device"/>
         <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Symmetric -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Symmetric -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Symmetric">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Cryptography"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Symmetric">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Cryptography"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#TCP -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#TCP">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Protocol"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Throughput -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Throughput -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Throughput">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Throughput">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Performance"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Transport_Layer -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Transport_Layer -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Transport_Layer">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Transport_Layer">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#TCP/IP"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Virtual_Circuits -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Virtual_Circuits -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Virtual_Circuits">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Switching"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Virtual_Circuits">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Packet_Switching"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#WAN -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#WAN -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#WAN">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scale"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#WAN">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Scale"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Wired -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Wired -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Wired">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Communication_Media"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Wired">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Communication_Media"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Wireless -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Wireless -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Wireless">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Communication_Media"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Wireless">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Communication_Media"/>
     </owl:Class>
     
 
 
-    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP -->
+    <!-- https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#TCP/IP -->
 
-    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP">
-        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Model"/>
+    <owl:Class rdf:about="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#TCP/IP">
+        <rdfs:subClassOf rdf:resource="https://github.com/micamat/network-forensics-ontology/blob/main/network.owl#Computer_Network_Model"/>
     </owl:Class>
 </rdf:RDF>
 
