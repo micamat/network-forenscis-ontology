@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/milica/ontologies/network#"
+     xml:base="http://www.semanticweb.org/milica/ontologies/network"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Application_Layer -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Application_Layer">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Asymmetric -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Asymmetric">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Bridge -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Bridge">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device"/>
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Bush -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Bush">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#LAN"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Circuit_Switching -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Circuit_Switching">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Functioning"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Client_Server -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Client_Server">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Architecture"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Communication_Media -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Communication_Media">
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Architecture -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Architecture">
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device">
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Functioning -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Functioning">
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Model -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Model">
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance">
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol">
+        <rdfs:isDefinedBy xml:lang="en"></rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scale -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scale">
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scope -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scope">
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Security -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Security">
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Cryptography -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Cryptography">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Security"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Data_Link_Layer -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Data_Link_Layer">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Datagrams -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Datagrams">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Switching"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Delay -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Delay">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#E-mail -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#E-mail">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Ethernet -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Ethernet">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Extranet -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Extranet">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scope"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#HTTP -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#HTTP">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Hub -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Hub">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device"/>
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#IDS -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#IDS">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Measure"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#IP -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#IP">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Internet -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Internet">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scope"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Intranet -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Intranet">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scope"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Jitter -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Jitter">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#LAN -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#LAN">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#MAC -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#MAC">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#MAN -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#MAN">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Measure -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Measure">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Security"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#NIDS -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#NIDS">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Measure"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Network_Layer -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Network_Layer">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#OSI -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#OSI">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Loss -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Loss">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Switching -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Switching">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Functioning"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Peer_to_Peer -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Peer_to_Peer">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Architecture"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Physical_Layer -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Physical_Layer">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Proxy -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Proxy">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Ring -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Ring">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#LAN"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Router -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Router">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device"/>
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Service -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Service">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Internet"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Star -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Star">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#LAN"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Switch -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Switch">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Device"/>
+        <rdfs:isDefinedBy xml:lang="en">Amato, F., Cozzolino, G., Moscato, V., &amp; Moscato, F. (2019)</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Symmetric -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Symmetric">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Cryptography"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Throughput -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Throughput">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Performance"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Transport_Layer -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Transport_Layer">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Virtual_Circuits -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Virtual_Circuits">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Packet_Switching"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#WAN -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#WAN">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Scale"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Wired -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Wired">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Communication_Media"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Wireless -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Wireless">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Communication_Media"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP -->
+
+    <owl:Class rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#TCP/IP">
+        <rdfs:subClassOf rdf:resource="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network.owl#Computer_Network_Model"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

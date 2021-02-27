@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/milica/ontologies/network-forensics-instance#"
+     xml:base="http://www.semanticweb.org/milica/ontologies/network-forensics-instance"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Alert_Log_File -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Alert_Log_File"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Argus_Log_File -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Argus_Log_File"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Authentication_Log_File -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Authentication_Log_File"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Binary_Log_File -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Binary_Log_File"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Calculating_MD5_Value -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Calculating_MD5_Value"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#CheckPoint_Firewall_Log_File -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#CheckPoint_Firewall_Log_File"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Combining_Log_Files -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Combining_Log_Files"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Correcting_System_Clock_Difference -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Correcting_System_Clock_Difference"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Correcting_Time_Zone_Differences -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Correcting_Time_Zone_Differences"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Detailing_Analysis_Environment -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Detailing_Analysis_Environment"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Different_Format_of_Dates_and_Times -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Different_Format_of_Dates_and_Times"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Disabling_DNS_Lookups -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Disabling_DNS_Lookups"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Disabling_Rotation -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Disabling_Rotation"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Documenting_All_Steps -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Documenting_All_Steps"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Documenting_File_Location -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Documenting_File_Location"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Documenting_File_Metadata -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Documenting_File_Metadata"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Documenting_Who_From_Where_How_When_Why -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Documenting_Who_From_Where_How_When_Why"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#E-mail_Log_File -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#E-mail_Log_File"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Host_Ranking_Based_On_Data_Amount -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Host_Ranking_Based_On_Data_Amount"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Identifying_Software_and_Hardware_Used -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Identifying_Software_and_Hardware_Used"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Integrity_Checking -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Integrity_Checking"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Labeling_File_Collection -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Labeling_File_Collection"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Logging_Filtering_Results -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Logging_Filtering_Results"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#NetFlow_Log_File -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#NetFlow_Log_File"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Noting_Problems_Errors_and_Inconsistencies -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Noting_Problems_Errors_and_Inconsistencies"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Noting_System_Clock_Time -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Noting_System_Clock_Time"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Packet_Log_File -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Packet_Log_File"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Perceiving_Number_Of_Host_Connections -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Perceiving_Number_Of_Host_Connections"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Reproducing_Forensic_Process -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Reproducing_Forensic_Process">
+        <rdfs:comment xml:lang="en">Under the same conditions with a consistent level of quality.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Saving_Copy_Of_Interpreted_Form -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Saving_Copy_Of_Interpreted_Form"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Saving_Second_Copy_To_Different_Medium -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Saving_Second_Copy_To_Different_Medium"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Searching_For_Indications_Of_Fabrication -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Searching_For_Indications_Of_Fabrication"/>
+    
+
+
+    <!-- urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Testing_and_Assessing_Software_Tools -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:/home/milica/Documents/icist-projekat/projekat/network_forensics_instance.owl#Testing_and_Assessing_Software_Tools"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
