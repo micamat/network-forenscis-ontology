@@ -6,7 +6,84 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/milica/ontologies/2021/2/untitled-ontology-32"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfNotDuplicatingErrorInformation -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfNotDuplicatingErrorInformation"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfOverloading -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfOverloading"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfPossibilityOfFrameDropping -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfPossibilityOfFrameDropping"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#DocumentingDroppedFrames -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#DocumentingDroppedFrames"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#EntireFrame -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#EntireFrame"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Finisar -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Finisar"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NetOptics -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NetOptics"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NotUsingOnCompromisedSystem -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NotUsingOnCompromisedSystem"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#RecordingOnlyPacketHeaderInformation -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#RecordingOnlyPacketHeaderInformation"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#SPAN -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#SPAN"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#tcpdump -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#tcpdump"/>
 </rdf:RDF>
 
 
