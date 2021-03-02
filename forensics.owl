@@ -75,9 +75,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Collection -->
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#CollectionMethod -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Collection">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#CollectionMethod">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
     </owl:Class>
     
