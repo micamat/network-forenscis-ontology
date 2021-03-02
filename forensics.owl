@@ -13,6 +13,60 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensuredBy -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensuredBy">
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensures"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensures -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensures"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guides -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guides">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibility"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#performedBy -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#performedBy">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibility"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -21,9 +75,67 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Collection -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Collection">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DataUnaltered -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DataUnaltered">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorsIdentified -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorsIdentified">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibility -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibility"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#NonInvasiveness -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#NonInvasiveness">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibility"/>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolReliability -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolReliability">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibility"/>
+    </owl:Class>
 </rdf:RDF>
 
 
