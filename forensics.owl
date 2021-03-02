@@ -6,7 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/milica/ontologies/2021/2/untitled-ontology-30"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl"/>
 </rdf:RDF>
 
 
