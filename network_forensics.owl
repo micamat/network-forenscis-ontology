@@ -9,6 +9,7 @@
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl"/>
     </owl:Ontology>
     
 
@@ -190,6 +191,98 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolReliability"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfNotDuplicatingErrorInformation -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfNotDuplicatingErrorInformation">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroringReliability"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfOverloading -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfOverloading">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#OperatingSystemSnifferReliability"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroringReliability"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfPossibilityOfFrameDropping -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfPossibilityOfFrameDropping">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroringReliability"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#EntireFrame -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#EntireFrame">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#DataLinkLayer"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Finisar -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Finisar">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#HardwareTap"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NetOptics -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NetOptics">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#HardwareTap"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NotUsingOnCompromisedSystem -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NotUsingOnCompromisedSystem">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#OperatingSystemSnifferReliability"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#RecordingOnlyPacketHeaderInformation -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#RecordingOnlyPacketHeaderInformation">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterceptionNonInvasiveness"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#SPAN -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#SPAN">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroring"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#tcpdump -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#tcpdump">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#OperatingSystemSnifferTool"/>
+    </rdf:Description>
 </rdf:RDF>
 
 
