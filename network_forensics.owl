@@ -8,7 +8,188 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#appliesTo -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#appliesTo">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkModel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorsIdentified -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorsIdentified">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensuredBy"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolReliability"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterception -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterception">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#performedBy"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#HardwareTap"/>
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#OperatingSystemSnifferTool"/>
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroring"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#appliesTo"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#DataLinkLayer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#InterceptionMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterceptionNonInvasiveness -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterceptionNonInvasiveness">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterception"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#NonInvasiveness"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#HardwareTap -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#HardwareTap">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#InterceptionTool"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#InterceptionMethod -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#InterceptionMethod">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#CollectionMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#InterceptionTool -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#InterceptionTool">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#OperatingSystemSnifferReliability -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#OperatingSystemSnifferReliability">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guides"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#OperatingSystemSnifferTool"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterception"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolReliability"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#OperatingSystemSnifferTool -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#OperatingSystemSnifferTool">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#InterceptionTool"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PhysicalLayerInterception -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PhysicalLayerInterception">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#InterceptionMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroring -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroring">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#InterceptionTool"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroringReliability -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroringReliability">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guides"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroring"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterception"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolReliability"/>
+    </owl:Class>
 </rdf:RDF>
 
 
