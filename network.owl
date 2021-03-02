@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/milica/ontologies/2021/2/untitled-ontology-31#"
-     xml:base="http://www.semanticweb.org/milica/ontologies/2021/2/untitled-ontology-31"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#"
+     xml:base="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
