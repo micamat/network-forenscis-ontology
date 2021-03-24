@@ -58,6 +58,12 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#ComputerNetworkProtocol -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#ComputerNetworkProtocol"/>
+    
+
+
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterception -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterception">

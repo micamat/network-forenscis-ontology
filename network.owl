@@ -24,7 +24,7 @@
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ApplicationLayer -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ApplicationLayer">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#TCP/IP"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkLayer"/>
     </owl:Class>
     
 
@@ -52,6 +52,12 @@
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkComponent -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkComponent"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkLayer -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkLayer"/>
     
 
 

@@ -94,6 +94,7 @@
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalystRequirement -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalystRequirement">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement"/>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement"/>
         <rdfs:comment>The qualifications of a digital forensic examiner.</rdfs:comment>
     </owl:Class>
@@ -191,16 +192,6 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ExpertWitnessRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ExpertWitnessRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement"/>
-        <rdfs:comment>An expert witness must be qualified on the basis of knowledge, expertise, experience, education and/or training.</rdfs:comment>
-        <rdfs:isDefinedBy>U.S. Federal Rules of Evidence</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
@@ -235,6 +226,12 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod">
         <rdfs:isDefinedBy>Digital Forensic Research Workshop (DFRWS)</rdfs:isDefinedBy>
     </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationPhase -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationPhase"/>
     
 
 
