@@ -51,7 +51,7 @@
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensuredBy"/>
-                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolReliability"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolRequirement"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </rdf:Description>
@@ -97,7 +97,7 @@
                 <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#DataLinkLayerInterception"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#NonInvasiveness"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AuthenticityRequirement"/>
     </owl:Class>
     
 
@@ -143,7 +143,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolReliability"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolRequirement"/>
     </owl:Class>
     
 
@@ -189,7 +189,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolReliability"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolRequirement"/>
     </owl:Class>
     
 
@@ -238,10 +238,66 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Ethernet_II -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Ethernet_II">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#DataLinkLayer"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Fiddler -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Fiddler">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ProxyServer"/>
+    </rdf:Description>
+    
+
+
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Finisar -->
 
     <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Finisar">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#HardwareTap"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#HTTP -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#HTTP">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ApplicationLayer"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IEEE_802.3 -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IEEE_802.3">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#DataLinkLayer"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IPv4 -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IPv4">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#NetworkLayer"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IPv6 -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IPv6">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#NetworkLayer"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#MAC_Address -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#MAC_Address">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#PhysicalLayer"/>
     </rdf:Description>
     
 
@@ -274,6 +330,14 @@
 
     <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#SPAN">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics.owl#PortMirroring"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#TCP -->
+
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#TCP">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#TransportLayer"/>
     </rdf:Description>
     
 
