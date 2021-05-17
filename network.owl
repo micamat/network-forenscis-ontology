@@ -13,6 +13,26 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#operatingSystem -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#operatingSystem">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkComponent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -67,6 +87,12 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkProtocol -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkProtocol"/>
+    
+
+
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#DHCPServer -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#DHCPServer">
@@ -110,6 +136,14 @@
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#IntrusionDetectionSystem -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#IntrusionDetectionSystem">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#Modem -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#Modem">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network.owl#ComputerNetworkComponent"/>
     </owl:Class>
     

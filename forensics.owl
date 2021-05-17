@@ -37,9 +37,18 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guides -->
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guides">
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesTool -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesTool">
         <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
         <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool"/>
     </owl:ObjectProperty>
@@ -51,15 +60,6 @@
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#performedBy">
         <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
         <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
     </owl:ObjectProperty>
     
 
@@ -122,7 +122,7 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AuthorizationRequirement">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod"/>
                 <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ExaminationMethod"/>
             </owl:Restriction>
         </owl:equivalentClass>
@@ -233,7 +233,7 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#IntegrityRequirement">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod"/>
                 <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
             </owl:Restriction>
         </owl:equivalentClass>
@@ -271,6 +271,14 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LogFile -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LogFile">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DigitalEvidenceSource"/>
     </owl:Class>
     
 
@@ -326,7 +334,7 @@ Evidence that has probative value, must prove tha fact in question to be more (o
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod"/>
                 <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalysisMethod"/>
             </owl:Restriction>
         </owl:equivalentClass>
@@ -421,7 +429,7 @@ Evidence that has probative value, must prove tha fact in question to be more (o
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolRequirement">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#reduces"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">

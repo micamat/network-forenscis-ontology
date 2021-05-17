@@ -21,6 +21,12 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Aculog -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Aculog"/>
+    
+
+
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfNotDuplicatingErrorInformation -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfNotDuplicatingErrorInformation"/>
@@ -123,6 +129,12 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Syslog -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Syslog"/>
+    
+
+
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#TCP -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#TCP"/>
@@ -132,6 +144,18 @@
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#tcpdump -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#tcpdump"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#xferlog -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#xferlog"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#All_TCP/IP_info -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#All_TCP/IP_info"/>
 </rdf:RDF>
 
 
