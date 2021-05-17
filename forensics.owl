@@ -75,6 +75,14 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Analysis -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Analysis">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationPhase"/>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalysisMethod -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalysisMethod">
@@ -162,6 +170,12 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DigitalEvidenceSource -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DigitalEvidenceSource"/>
+    
+
+
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorRatesDocumented -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorRatesDocumented">
@@ -181,6 +195,14 @@
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Examination -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Examination">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationPhase"/>
+    </owl:Class>
     
 
 
