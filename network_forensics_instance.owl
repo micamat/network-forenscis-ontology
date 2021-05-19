@@ -141,6 +141,72 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#anfcm_process_model -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#anfcm_process_model">
+        <rdfs:comment>Admissible Network Forensic Process Model</rdfs:comment>
+        <rdfs:isDefinedBy>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#data_visualization -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#data_visualization">
+        <rdfs:comment>Data visualization</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#duplication_in_log_files -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#duplication_in_log_files"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#event_aggregation -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#event_aggregation">
+        <rdfs:comment>The process of aggregation of events from log files.</rdfs:comment>
+        <rdfs:isDefinedBy>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#event_correlation -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#event_correlation">
+        <rdfs:comment>The process of correlation of events from log files.</rdfs:comment>
+        <rdfs:isDefinedBy>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#log_file_formats_unified -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#log_file_formats_unified">
+        <rdfs:comment>Formats of collected log files must be unified.</rdfs:comment>
+        <rdfs:isDefinedBy>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#ml_svm_techniques -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#ml_svm_techniques">
+        <rdfs:comment>Machine Learning and Support Vector Machine Techniques</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#statistical_analysis -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#statistical_analysis">
+        <rdfs:comment>Statistical analysis</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#tcpdump -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#tcpdump"/>

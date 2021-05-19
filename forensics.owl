@@ -13,60 +13,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensuredBy -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensuredBy">
-        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensures"/>
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensures -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensures"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesTool -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesTool">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#performedBy -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#performedBy">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -120,12 +66,6 @@
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AuthorizationRequirement -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AuthorizationRequirement">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod"/>
-                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ExaminationMethod"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement"/>
         <rdfs:comment>A search warrant is required before any digital device can be seized for a digital forensic investigation.</rdfs:comment>
     </owl:Class>
@@ -151,12 +91,6 @@
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DataUnaltered -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DataUnaltered">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ensuredBy"/>
-                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#IntegrityRequirement"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
     </owl:Class>
     
@@ -231,12 +165,6 @@
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#IntegrityRequirement -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#IntegrityRequirement">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod"/>
-                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement"/>
         <rdfs:comment>Integrity refers to the &quot;wholeness and  soundness&quot; of digital evidence. It also implies that the evidence is complete and unaltered.</rdfs:comment>
     </owl:Class>
@@ -332,12 +260,6 @@ Evidence that has probative value, must prove tha fact in question to be more (o
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod"/>
-                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalysisMethod"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement"/>
         <rdfs:comment>It must be established that no aspect of the evidence is suspect.</rdfs:comment>
     </owl:Class>
@@ -427,20 +349,6 @@ Evidence that has probative value, must prove tha fact in question to be more (o
     <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolRequirement -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolRequirement">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#guidesMethod"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalysisMethod"/>
-                            <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#CollectionMethod"/>
-                            <rdf:Description rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#PreservationMethod"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement"/>
         <rdfs:comment>Forensic tools should be tested, validated, and their error rates documented.</rdfs:comment>
         <rdfs:isDefinedBy>National Institute of Standards and Technology (NIST)
