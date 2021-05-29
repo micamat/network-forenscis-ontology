@@ -1,369 +1,372 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#"
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Analysis -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Analysis">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationPhase"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalysisMethod -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalysisMethod">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalystExperienced -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalystExperienced">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalystRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AnalystRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement"/>
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement"/>
-        <rdfs:comment>The qualifications of a digital forensic examiner.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AuthenticityRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AuthenticityRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AuthorizationRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#AuthorizationRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement"/>
-        <rdfs:comment>A search warrant is required before any digital device can be seized for a digital forensic investigation.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ChainOfCustodyRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ChainOfCustodyRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#CollectionMethod -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#CollectionMethod">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DataUnaltered -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DataUnaltered">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DecisionMethod -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DecisionMethod">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DigitalEvidenceSource -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DigitalEvidenceSource"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorRatesDocumented -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorRatesDocumented">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorsIdentified"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorsIdentified -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorsIdentified">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Examination -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Examination">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationPhase"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ExaminationMethod -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ExaminationMethod">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ForensicsSoundnessCriterion"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#IdentificationMethod -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#IdentificationMethod">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#IntegrityRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#IntegrityRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement"/>
-        <rdfs:comment>Integrity refers to the &quot;wholeness and  soundness&quot; of digital evidence. It also implies that the evidence is complete and unaltered.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod">
-        <rdfs:isDefinedBy>Digital Forensic Research Workshop (DFRWS)</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationPhase -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationPhase"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LaboratoryRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LaboratoryRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement"/>
-        <rdfs:comment>A well-organized digital forensic laboratory with standard operating procedures and quality assurance systems.</rdfs:comment>
-        <rdfs:isDefinedBy>Chief Police Officers Good Practice Guide</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LogFile -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LogFile">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#DigitalEvidenceSource"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ModelRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ModelRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement"/>
-        <rdfs:comment>Digital forensic models embody a number of guidelines to ensure that appropriate digital forensic procedures are folowed when conducting investigations.</rdfs:comment>
-        <rdfs:isDefinedBy>Accociation of Chief Police Officers in the United Kingdom
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl">
+    <Prefix name="" IRI="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnalysisMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnalystExperienced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnalystRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuthenticityRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuthorizationRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChainOfCustodyRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollectionMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataUnaltered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DecisionMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalEvidenceSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ErrorRatesDocumented"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ErrorsIdentified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvidenceAdmissibilityRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Examination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExaminationMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForensicsSoundnessCriterion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IdentificationMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntegrityRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InvestigationMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InvestigationPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LaboratoryRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogFile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModelRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationsControlledByStandards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PresentationMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreservationMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelevanceRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReliabilityRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReportRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StandardsMaintained"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnicalIntegrityVerificationRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnicalRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechniqueAcceptedByScientificCommunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechniqueErrorRateDetermined"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechniquePeerReviewed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechniqueTested"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestingPerformed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToolRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValidationPerformed"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Analysis"/>
+        <Class IRI="#InvestigationPhase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnalysisMethod"/>
+        <Class IRI="#InvestigationMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnalystExperienced"/>
+        <Class IRI="#ForensicsSoundnessCriterion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnalystRequirement"/>
+        <Class IRI="#LegalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnalystRequirement"/>
+        <Class IRI="#TechnicalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuthenticityRequirement"/>
+        <Class IRI="#LegalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuthorizationRequirement"/>
+        <Class IRI="#LegalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChainOfCustodyRequirement"/>
+        <Class IRI="#TechnicalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollectionMethod"/>
+        <Class IRI="#InvestigationMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataUnaltered"/>
+        <Class IRI="#ForensicsSoundnessCriterion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DecisionMethod"/>
+        <Class IRI="#InvestigationMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ErrorRatesDocumented"/>
+        <Class IRI="#ErrorsIdentified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ErrorsIdentified"/>
+        <Class IRI="#ForensicsSoundnessCriterion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Examination"/>
+        <Class IRI="#InvestigationPhase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExaminationMethod"/>
+        <Class IRI="#InvestigationMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IdentificationMethod"/>
+        <Class IRI="#InvestigationMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntegrityRequirement"/>
+        <Class IRI="#LegalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LaboratoryRequirement"/>
+        <Class IRI="#TechnicalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalRequirement"/>
+        <Class IRI="#EvidenceAdmissibilityRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LogFile"/>
+        <Class IRI="#DigitalEvidenceSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModelRequirement"/>
+        <Class IRI="#TechnicalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationsControlledByStandards"/>
+        <Class IRI="#ReliabilityRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PresentationMethod"/>
+        <Class IRI="#InvestigationMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreservationMethod"/>
+        <Class IRI="#InvestigationMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelevanceRequirement"/>
+        <Class IRI="#LegalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReliabilityRequirement"/>
+        <Class IRI="#LegalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReportRequirement"/>
+        <Class IRI="#TechnicalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardsMaintained"/>
+        <Class IRI="#ReliabilityRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnicalIntegrityVerificationRequirement"/>
+        <Class IRI="#TechnicalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnicalRequirement"/>
+        <Class IRI="#EvidenceAdmissibilityRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechniqueAcceptedByScientificCommunity"/>
+        <Class IRI="#ReliabilityRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechniqueErrorRateDetermined"/>
+        <Class IRI="#ReliabilityRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechniquePeerReviewed"/>
+        <Class IRI="#ReliabilityRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechniqueTested"/>
+        <Class IRI="#ReliabilityRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TestingPerformed"/>
+        <Class IRI="#ErrorsIdentified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToolRequirement"/>
+        <Class IRI="#TechnicalRequirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValidationPerformed"/>
+        <Class IRI="#ErrorsIdentified"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AnalystRequirement</IRI>
+        <Literal>The qualifications of a digital forensic examiner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AuthorizationRequirement</IRI>
+        <Literal>A search warrant is required before any digital device can be seized for a digital forensic investigation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DigitalEvidenceSource</IRI>
+        <Literal>digital evidence source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IntegrityRequirement</IRI>
+        <Literal>Integrity refers to the &quot;wholeness and  soundness&quot; of digital evidence. It also implies that the evidence is complete and unaltered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#InvestigationMethod</IRI>
+        <Literal>Digital Forensic Research Workshop (DFRWS)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LaboratoryRequirement</IRI>
+        <Literal>A well-organized digital forensic laboratory with standard operating procedures and quality assurance systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#LaboratoryRequirement</IRI>
+        <Literal>Chief Police Officers Good Practice Guide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ModelRequirement</IRI>
+        <Literal>Digital forensic models embody a number of guidelines to ensure that appropriate digital forensic procedures are folowed when conducting investigations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ModelRequirement</IRI>
+        <Literal>Accociation of Chief Police Officers in the United Kingdom
 Scientific Working Group on Digital Evidence in the United States
-Iternational Organization for Standardization via the ISO/IEC 27043 Standard</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#OperationsControlledByStandards -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#OperationsControlledByStandards">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#PresentationMethod -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#PresentationMethod">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#PreservationMethod -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#PreservationMethod">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#InvestigationMethod"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#RelevanceRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#RelevanceRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement"/>
-        <rdfs:comment>For a piece of evidence to be deemed relevant in legal proceedings, it must tend to prove or disprove a fact in the proceedings.
-Evidence that has probative value, must prove tha fact in question to be more (or less) probable than it would be without the evidence.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#LegalRequirement"/>
-        <rdfs:comment>It must be established that no aspect of the evidence is suspect.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReportRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReportRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement"/>
-        <rdfs:comment>A digital forensic report must have conclusions that are reproducible by independent third parties.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#StandardsMaintained -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#StandardsMaintained">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalIntegrityVerificationRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalIntegrityVerificationRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement"/>
-        <rdfs:comment>Maintaining and verifying the integrity of digital evidence items.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#EvidenceAdmissibilityRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechniqueAcceptedByScientificCommunity -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechniqueAcceptedByScientificCommunity">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechniqueErrorRateDetermined -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechniqueErrorRateDetermined">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechniquePeerReviewed -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechniquePeerReviewed">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechniqueTested -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechniqueTested">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ReliabilityRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TestingPerformed -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TestingPerformed">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorsIdentified"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#Tool"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolRequirement -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ToolRequirement">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#TechnicalRequirement"/>
-        <rdfs:comment>Forensic tools should be tested, validated, and their error rates documented.</rdfs:comment>
-        <rdfs:isDefinedBy>National Institute of Standards and Technology (NIST)
+Iternational Organization for Standardization via the ISO/IEC 27043 Standard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RelevanceRequirement</IRI>
+        <Literal>For a piece of evidence to be deemed relevant in legal proceedings, it must tend to prove or disprove a fact in the proceedings.
+Evidence that has probative value, must prove tha fact in question to be more (or less) probable than it would be without the evidence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReliabilityRequirement</IRI>
+        <Literal>It must be established that no aspect of the evidence is suspect.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReportRequirement</IRI>
+        <Literal>A digital forensic report must have conclusions that are reproducible by independent third parties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TechnicalIntegrityVerificationRequirement</IRI>
+        <Literal>Maintaining and verifying the integrity of digital evidence items.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ToolRequirement</IRI>
+        <Literal>Forensic tools should be tested, validated, and their error rates documented.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ToolRequirement</IRI>
+        <Literal>National Institute of Standards and Technology (NIST)
 Scientific Working Group on Digital Evidence
-ISO/IEC 27041</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ValidationPerformed -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ValidationPerformed">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#ErrorsIdentified"/>
-    </owl:Class>
-</rdf:RDF>
+ISO/IEC 27041</Literal>
+    </AnnotationAssertion>
+</Ontology>
 
 
 
