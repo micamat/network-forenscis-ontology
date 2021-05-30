@@ -70,6 +70,9 @@
         <Class IRI="#PhysicalLayer"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Proba"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ProxyServer"/>
     </Declaration>
     <Declaration>
