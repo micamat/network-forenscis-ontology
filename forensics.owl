@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl">
-    <Prefix name="" IRI="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl#"/>
+    <Prefix name="" IRI="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/forensics.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -303,13 +303,33 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EvidenceAdmissibilityRequirement</IRI>
+        <Literal>evidence admissibility requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ForensicsSoundnessCriterion</IRI>
+        <Literal>forensics soundness criterion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#IntegrityRequirement</IRI>
         <Literal>Integrity refers to the &quot;wholeness and  soundness&quot; of digital evidence. It also implies that the evidence is complete and unaltered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InvestigationMethod</IRI>
+        <Literal>investigation method</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>#InvestigationMethod</IRI>
         <Literal>Digital Forensic Research Workshop (DFRWS)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InvestigationPhase</IRI>
+        <Literal>investigation phase</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -353,6 +373,11 @@ Evidence that has probative value, must prove tha fact in question to be more (o
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#TechnicalIntegrityVerificationRequirement</IRI>
         <Literal>Maintaining and verifying the integrity of digital evidence items.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tool</IRI>
+        <Literal>tool</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
