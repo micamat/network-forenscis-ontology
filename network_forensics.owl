@@ -479,6 +479,46 @@
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ApplicationLog</IRI>
+        <Literal>application log file</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AuthenticationLog</IRI>
+        <Literal>authentication log file</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HardwareTap</IRI>
+        <Literal>hardware tap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InterceptionTool</IRI>
+        <Literal>interception tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NetworkDeviceLog</IRI>
+        <Literal>network device log file</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OperatingSystemLog</IRI>
+        <Literal>operating system log file</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OperatingSystemSnifferTool</IRI>
+        <Literal>operating system sniffer tool</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PortMirroring</IRI>
+        <Literal>port mirroring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#duplication_in_log_files</IRI>
         <Literal>Duplication of the single event within different log files must be reduced.</Literal>
     </AnnotationAssertion>

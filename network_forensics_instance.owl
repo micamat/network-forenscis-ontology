@@ -107,6 +107,81 @@
     </Declaration>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aculog</IRI>
+        <Literal>Aculog</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BeingAwareOfNotDuplicatingErrorInformation</IRI>
+        <Literal>Be aware of not duplicating error informaion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BeingAwareOfOverloading</IRI>
+        <Literal>Be aware of overloading.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BeingAwareOfPossibilityOfFrameDropping</IRI>
+        <Literal>Be aware of frame dropping.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DocumentingDroppedFrames</IRI>
+        <Literal>Document dropped frames.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EntireFrame</IRI>
+        <Literal>All frame information.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ethernet_II</IRI>
+        <Literal>Ethernet II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fiddler</IRI>
+        <Literal>Fiddler</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Finisar</IRI>
+        <Literal>Finisar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HTTP</IRI>
+        <Literal>HTTP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IEEE_802.3</IRI>
+        <Literal>IEEE 802.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IPv4</IRI>
+        <Literal>IPv4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IPv6</IRI>
+        <Literal>IPv6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MAC_Address</IRI>
+        <Literal>MAC address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NetOptics</IRI>
+        <Literal>NetOptics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#anfcm_process_model</IRI>
         <Literal>Admissible Network Forensic Process Model</Literal>
     </AnnotationAssertion>
@@ -119,6 +194,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#data_visualization</IRI>
         <Literal>Data visualization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#duplication_in_log_files</IRI>
+        <Literal>Duplication of the single event within different log files must be reduced.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -159,6 +239,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#statistical_analysis</IRI>
         <Literal>Statistical analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#All_TCP/IP_info</IRI>
+        <Literal>All TCP/IP information</Literal>
     </AnnotationAssertion>
 </Ontology>
 
