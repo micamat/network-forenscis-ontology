@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl">
-    <Prefix name="" IRI="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#"/>
+    <Prefix name="" IRI="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -182,6 +182,31 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NotUsingOnCompromisedSystem</IRI>
+        <Literal>Don&apos;t use it on a compromised system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RecordingOnlyPacketHeaderInformation</IRI>
+        <Literal>Record only packet header information.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SPAN</IRI>
+        <Literal>SPAN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Syslog</IRI>
+        <Literal>Syslog</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TCP</IRI>
+        <Literal>TCP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#anfcm_process_model</IRI>
         <Literal>Admissible Network Forensic Process Model</Literal>
     </AnnotationAssertion>
@@ -239,6 +264,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#statistical_analysis</IRI>
         <Literal>Statistical analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tcpdump</IRI>
+        <Literal>tcpdump</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#xferlog</IRI>
+        <Literal>xferlog</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
