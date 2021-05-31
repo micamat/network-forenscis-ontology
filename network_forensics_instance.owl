@@ -1,228 +1,166 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#"
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Aculog -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Aculog"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfNotDuplicatingErrorInformation -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfNotDuplicatingErrorInformation"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfOverloading -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfOverloading"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfPossibilityOfFrameDropping -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#BeingAwareOfPossibilityOfFrameDropping"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#DocumentingDroppedFrames -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#DocumentingDroppedFrames"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#EntireFrame -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#EntireFrame"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Ethernet_II -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Ethernet_II"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Fiddler -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Fiddler"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Finisar -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Finisar"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#HTTP -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#HTTP"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IEEE_802.3 -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IEEE_802.3"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IPv4 -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IPv4"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IPv6 -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#IPv6"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#MAC_Address -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#MAC_Address"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NetOptics -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NetOptics"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NotUsingOnCompromisedSystem -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#NotUsingOnCompromisedSystem"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#RecordingOnlyPacketHeaderInformation -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#RecordingOnlyPacketHeaderInformation"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#SPAN -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#SPAN"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Syslog -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#Syslog"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#TCP -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#TCP"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#anfcm_process_model -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#anfcm_process_model">
-        <rdfs:comment>Admissible Network Forensic Process Model</rdfs:comment>
-        <rdfs:isDefinedBy>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</rdfs:isDefinedBy>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#data_visualization -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#data_visualization">
-        <rdfs:comment>Data visualization</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#duplication_in_log_files -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#duplication_in_log_files"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#event_aggregation -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#event_aggregation">
-        <rdfs:comment>The process of aggregation of events from log files.</rdfs:comment>
-        <rdfs:isDefinedBy>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</rdfs:isDefinedBy>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#event_correlation -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#event_correlation">
-        <rdfs:comment>The process of correlation of events from log files.</rdfs:comment>
-        <rdfs:isDefinedBy>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</rdfs:isDefinedBy>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#log_file_formats_unified -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#log_file_formats_unified">
-        <rdfs:comment>Formats of collected log files must be unified.</rdfs:comment>
-        <rdfs:isDefinedBy>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</rdfs:isDefinedBy>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#ml_svm_techniques -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#ml_svm_techniques">
-        <rdfs:comment>Machine Learning and Support Vector Machine Techniques</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#statistical_analysis -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#statistical_analysis">
-        <rdfs:comment>Statistical analysis</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#tcpdump -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#tcpdump"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#xferlog -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#xferlog"/>
-    
-
-
-    <!-- https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#All_TCP/IP_info -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#All_TCP/IP_info"/>
-</rdf:RDF>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl">
+    <Prefix name="" IRI="https://raw.githubusercontent.com/micamat/network-forensics-ontology/main/network_forensics_instance.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Aculog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BeingAwareOfNotDuplicatingErrorInformation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BeingAwareOfOverloading"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BeingAwareOfPossibilityOfFrameDropping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DocumentingDroppedFrames"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EntireFrame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethernet_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fiddler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finisar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HTTP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IEEE_802.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IPv4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IPv6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAC_Address"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NetOptics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NotUsingOnCompromisedSystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RecordingOnlyPacketHeaderInformation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SPAN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Syslog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TCP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anfcm_process_model"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#data_visualization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#duplication_in_log_files"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event_aggregation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#event_correlation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#log_file_formats_unified"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ml_svm_techniques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#statistical_analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tcpdump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xferlog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#All_TCP/IP_info"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#anfcm_process_model</IRI>
+        <Literal>Admissible Network Forensic Process Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#anfcm_process_model</IRI>
+        <Literal>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#data_visualization</IRI>
+        <Literal>Data visualization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#event_aggregation</IRI>
+        <Literal>The process of aggregation of events from log files.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#event_aggregation</IRI>
+        <Literal>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#event_correlation</IRI>
+        <Literal>The process of correlation of events from log files.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#event_correlation</IRI>
+        <Literal>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#log_file_formats_unified</IRI>
+        <Literal>Formats of collected log files must be unified.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#log_file_formats_unified</IRI>
+        <Literal>Al-Mahrouqi, A., Abdalla, S., &amp; Kechadi, T. (2015, July). Efficiency of network event logs as admissible digital evidence. In 2015 Science and Information Conference (SAI) (pp. 1257-1265). IEEE.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ml_svm_techniques</IRI>
+        <Literal>Machine Learning and Support Vector Machine Techniques</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#statistical_analysis</IRI>
+        <Literal>Statistical analysis</Literal>
+    </AnnotationAssertion>
+</Ontology>
 
 
 

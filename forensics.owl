@@ -288,8 +288,28 @@
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Analysis</IRI>
+        <Literal>analysis investigation phase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AnalysisMethod</IRI>
+        <Literal>analysis method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AnalystExperienced</IRI>
+        <Literal>Forensic investigator must be experienced.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#AnalystRequirement</IRI>
         <Literal>The qualifications of a digital forensic examiner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AuthenticityRequirement</IRI>
+        <Literal>digital evidence authenticity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -298,8 +318,38 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChainOfCustodyRequirement</IRI>
+        <Literal>Chain of custody maintained.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CollectionMethod</IRI>
+        <Literal>collection method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DataUnaltered</IRI>
+        <Literal>Data must be unaltered.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DecisionMethod</IRI>
+        <Literal>decision method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#DigitalEvidenceSource</IRI>
         <Literal>digital evidence source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ErrorRatesDocumented</IRI>
+        <Literal>Errors must be documented.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ErrorsIdentified</IRI>
+        <Literal>Errors must be identified.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -308,8 +358,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Examination</IRI>
+        <Literal>examination investgation phase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExaminationMethod</IRI>
+        <Literal>examination method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ForensicsSoundnessCriterion</IRI>
         <Literal>forensics soundness criterion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IdentificationMethod</IRI>
+        <Literal>identification method</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -343,6 +408,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LegalRequirement</IRI>
+        <Literal>legal admissibility requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LogFile</IRI>
+        <Literal>log file</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ModelRequirement</IRI>
         <Literal>Digital forensic models embody a number of guidelines to ensure that appropriate digital forensic procedures are folowed when conducting investigations.</Literal>
     </AnnotationAssertion>
@@ -352,6 +427,21 @@
         <Literal>Accociation of Chief Police Officers in the United Kingdom
 Scientific Working Group on Digital Evidence in the United States
 Iternational Organization for Standardization via the ISO/IEC 27043 Standard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OperationsControlledByStandards</IRI>
+        <Literal>Evidence manipulation adheres to standards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PresentationMethod</IRI>
+        <Literal>presentation method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PreservationMethod</IRI>
+        <Literal>preservation method</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -371,8 +461,43 @@ Evidence that has probative value, must prove tha fact in question to be more (o
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StandardsMaintained</IRI>
+        <Literal>Standards for evidence manipulation maintained.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#TechnicalIntegrityVerificationRequirement</IRI>
         <Literal>Maintaining and verifying the integrity of digital evidence items.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TechnicalRequirement</IRI>
+        <Literal>technical admissibility requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TechniqueAcceptedByScientificCommunity</IRI>
+        <Literal>Investigator performs techniques accepted by scientific community.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TechniqueErrorRateDetermined</IRI>
+        <Literal>An investigator is aware of technique errors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TechniquePeerReviewed</IRI>
+        <Literal>Technique conducted is peer reviewed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TechniqueTested</IRI>
+        <Literal>Technique conducted is tested.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TestingPerformed</IRI>
+        <Literal>Tests must be performed.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -390,6 +515,11 @@ Evidence that has probative value, must prove tha fact in question to be more (o
         <Literal>National Institute of Standards and Technology (NIST)
 Scientific Working Group on Digital Evidence
 ISO/IEC 27041</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ValidationPerformed</IRI>
+        <Literal>Validation must be performed.</Literal>
     </AnnotationAssertion>
 </Ontology>
 
