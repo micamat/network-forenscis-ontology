@@ -79,6 +79,9 @@
         <Class IRI="#Switch"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#TCP_IP"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#TransportLayer"/>
     </Declaration>
     <Declaration>
@@ -89,9 +92,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Workstation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TCP/IP"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#operatingSystem"/>
@@ -110,7 +110,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataLinkLayer"/>
-        <Class IRI="#TCP/IP"/>
+        <Class IRI="#TCP_IP"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Firewall"/>
@@ -134,7 +134,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NetworkLayer"/>
-        <Class IRI="#TCP/IP"/>
+        <Class IRI="#TCP_IP"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PCClient"/>
@@ -146,7 +146,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PhysicalLayer"/>
-        <Class IRI="#TCP/IP"/>
+        <Class IRI="#TCP_IP"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ProxyServer"/>
@@ -161,8 +161,12 @@
         <Class IRI="#ComputerNetworkComponent"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TCP_IP"/>
+        <Class IRI="#ComputerNetworkModel"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TransportLayer"/>
-        <Class IRI="#TCP/IP"/>
+        <Class IRI="#TCP_IP"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Wired"/>
@@ -175,10 +179,6 @@
     <SubClassOf>
         <Class IRI="#Workstation"/>
         <Class IRI="#ComputerNetworkComponent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TCP/IP"/>
-        <Class IRI="#ComputerNetworkModel"/>
     </SubClassOf>
     <DataPropertyDomain>
         <DataProperty IRI="#operatingSystem"/>
@@ -300,6 +300,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TCP_IP</IRI>
+        <Literal>TCP/IP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#TransportLayer</IRI>
         <Literal>Transport Layer</Literal>
     </AnnotationAssertion>
@@ -317,11 +322,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Workstation</IRI>
         <Literal>workstation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#TCP/IP</IRI>
-        <Literal>TCP/IP</Literal>
     </AnnotationAssertion>
 </Ontology>
 
